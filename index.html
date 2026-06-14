@@ -257,23 +257,26 @@ für <br> Hochzeiten, Jugendweihen, Konfirmationen und besondere Jubiläen.</p>
 							<strong>01514 7034568</strong>
 						</p>
 					</header>
-					<form method="POST" action="https://formsubmit.co/info@jessicalohsevocal.com">
+					<form method="POST" action="https://api.web3forms.com/submit">
+						<input type="hidden" name="access_key" value="aa236742-1a58-4587-9220-09e4fc767506">
 						<div class="row gtr-uniform">
 							<div class="col-6 col-12-xsmall">
-								<input type="text" name="name" id="name" placeholder="Name" />
+								<input type="text" name="name" id="name" placeholder="Name" required />
 							</div>
 
 							<div class="col-6 col-12-xsmall">
-								<input type="email" name="email" id="email" placeholder="E-Mail" />
+								<input type="email" name="email" id="email" placeholder="E-Mail" required/>
 							</div>
 
 							<div class="col-12">
-								<textarea name="message" id="message" placeholder="Nachricht" rows="4"></textarea>
+								<textarea name="message" id="message" placeholder="Nachricht" rows="4" required></textarea>
 							</div>
 
 							<div class="col-12">
 								<ul class="actions special">
-									<li><input type="submit" value="Wunschtermin anfragen" class="primary" /></li>
+									<li>
+										<button type="submit" class="primary">Wunschtermin anfragen</button>
+									</li>								
 								</ul>
 							</div>
 						</div>
