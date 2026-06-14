@@ -3027,9 +3027,7 @@ input, select, textarea {
 						margin-top: 1em;
 					}
 
-				#header .container {
-					display: none;
-				}
+				
 
 		/* Footer */
 
@@ -3047,6 +3045,11 @@ input, select, textarea {
 
 			html, body {
 				min-width: 320px;
+			}
+
+			#header .container {
+				margin-left: -50%;
+				padding: 3em;
 			}
 
 		/* List */
